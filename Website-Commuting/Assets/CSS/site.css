@@ -1,0 +1,302 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #63BDB4 ;
+}
+.headerDiv {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+}
+
+.footerDiv {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+  vertical-align: bottom;
+}
+
+iframe {
+  display: block;
+  align-self: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 0;
+}
+
+.mainNav {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  padding: 0px;
+  margin: 0px;
+  height: 15%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Black;
+  padding-right: 2%;
+  font-size: 24px;
+}
+
+ol {
+  list-style-type: none;
+  overflow: hidden;
+}
+.mainH1 {
+  color: black;
+  font-size: 100px;
+  font-family: "Comic Sans MS", serif;
+  text-align: center;
+  margin: 0px;
+}
+
+ul li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: Grey;
+  border-radius: 7px;
+}
+
+.activeNav {
+  background-color: #555555;
+}
+
+.headerIMG {
+  width: 100%;
+  height: 25vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footerIMG {
+  width: 100%;
+  height: 25vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contentDiv {
+  margin: 5%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+.contactForm {
+  margin-left: 2%;
+}
+
+label {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 5px;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+#submitButton {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.busETime {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.busETime th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.busETime tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.busWTime {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.busWTime th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.busWTime tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.busPageHr {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.wBusLogo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.eBusLogo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.iRELogo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.trainTdiv {
+  height: 80%;
+  width: 80%;
+  margin: 0px;
+  align-content: center;
+}
+
+#timetableTnorth {
+  height: 470px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#timetableTsouth {
+  height: 470px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.twitterBE {
+  display: inline-block;
+}
+
+.twitterAAR {
+  display: inline-block;
+}
+
+.twitterIRE {
+  display: inline-block;
+}
+
+.twitterWB {
+  display: inline-block;
+}
+
+.trainTdiv h2 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  vertical-align: top;
+}
+
+.twitterMobileDiv {
+  display: none;
+}
+
+.checkBoxC {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+@media only screen and (max-device-width: 480px) {
+  img.headerIMG {
+    display: none;
+  }
+
+  img.footerIMG {
+    display: none;
+  }
+
+  li {
+    font-size: 140%;
+  }
+
+  h1 {
+    font-size: 80%;
+  }
+
+  .contentDiv {
+    font-size: 200%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 20vh;
+    margin: 0px;
+  }
+
+  .trainTdiv {
+    width: auto;
+    height: auto;
+  }
+
+  .twitterMobileDiv {
+    display: contents;
+  }
+
+  .twitterFeedsDiv {
+    display: none;
+  }
+
+  form textarea {
+    font-size: 200%;
+    width: 95%;;
+  }
+
+  #timetableTnorth {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #timetableTsouth {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rateWebpage {
+    font-size: 150%;
+  }
+
+}

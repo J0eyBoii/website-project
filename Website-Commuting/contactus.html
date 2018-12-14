@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Assets/CSS/site.css">
+    <script src="Assets/Scripts/main.js"></script>
+    <title>Wicklow Commute</title>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <div class="headerDiv">
+            <img class="headerIMG" src="Assets/Images/headerImg.png" alt="Header Image">
+          <nav class="mainNav">
+            <ul>
+              <li><a class="activeNav" href="contactus.html">Contact Us</a></li>
+              <li><a href="bus.html">Bus</a></li>
+              <li><a href="train.html">Train</a></li>
+              <li><a href="driving.html">Driving</a></li>
+              <li><a href="index.html">Home</a></li>
+            </ul>
+          </nav>
+        <h1 class="mainH1">Contact Us</h1>
+        </div>
+      </header>
+        <div class="contentDiv">
+          <div class="contactForm">
+          <form name="formContact" onsubmit="return( validate() );">
+                  <label>*Name:</label><input id="IName" type="text" autocomplete="off" >&nbsp;<span id="nameMessage"></span><br>
+                  <label>*Email:</label><input id="IEmail" type="email" placeholder="example@email.com" required autocomplete="off" ><br>
+                  <label>*Age:</label><input id="IAge" type="text" autocomplete="off" ><br>
+                  <label>How often do you commute?(Per Week)</label><br>
+                  <input type="radio" name="commuteWeekly" value="0-2" checked><label> 0-2 days</label>
+                  <input type="radio" name="commuteWeekly" value="3-5"><label> 3-4 days</label>
+                  <input type="radio" name="commuteWeekly" value="5+"><label> 5+ days</label><br>
+                  <label>*What feedback you would like to give?</label><br>
+                  <textarea name="Ifeedback" rows="10" cols="80"></textarea><br>
+                  <label>Do you plan on using the website again?</label><br>
+                  <input type="checkbox" name="checkboxA1" value="No"><label class="checkBoxC">No</label>
+                  <input type="checkbox" name="checkboxA2" value="Yes"><label class="checkBoxC">Yes</label>
+                  <input type="checkbox" name="checkboxA3" value="I Don't Know"><label class="checkBoxC">I Don't Know</label><br>
+                  <label>Did you find our website easy to navigate:</label>
+                  <select class="rateWebpage" name="choiceRate">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    <option value="Sometimes">Sometimes</option>
+                  </select>
+                  <input id="submitButton" type="submit" value="Submit">
+          </form>
+          </div>
+        </div>
+      <footer>
+          <div class="footerDiv">
+              <img class="footerIMG" src="Assets/Images/footerImg.png" alt="Footer Image">
+          </div>
+      </footer>
+    </div>
+  </body>
+</html>
